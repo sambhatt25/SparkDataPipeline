@@ -5,10 +5,10 @@
 ### They are now asking you to design a data-pipeline to process and prepare the data for the data-scientists. They expect that the result of the pipeline is a single .csv file containing all available information for each loan including visits and customer data.
 
 ## Step 1: to execute the application please set the config properly before build.
-### Edit the conf file (/SparkProj/src/main/resources/application.conf) and set the properties like below
-### Set the master as per your need
-### Then which functions you wish to execute
-### Provide the file paths accordingly
+#### Edit the conf file (/SparkDataPipeline/src/main/resources/application.conf) and set the properties like below
+#### Set the master as per your need
+#### Then which functions you wish to execute
+#### Provide the file paths accordingly
 
 ### Clone the project
 ```
