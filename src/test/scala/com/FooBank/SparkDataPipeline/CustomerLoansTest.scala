@@ -18,8 +18,8 @@ import org.scalatest.FlatSpec
 import org.apache.spark.sql._
 
 @RunWith(classOf[JUnitRunner])
-class CustomerLoansSpec extends FlatSpec {
-  System.setProperty("hadoop.home.dir", "C:\\hadoop")
+class CustomerLoansTest extends FlatSpec {
+  //System.setProperty("hadoop.home.dir", "C:\\hadoop")
   val spark=CustomerLoans.createSparkSession(Map("master" -> "local"))
   
    it should "create JSON dataframe" in {

@@ -12,7 +12,7 @@
 
 ### Clone the project
 ```
-git clone https://github.com/sambhatt25/SparkDataPipeline
+git clone https://github.com/sambhatt25/SparkDataPipeline.git
 
 cd SparkDataPipeline
 ```
