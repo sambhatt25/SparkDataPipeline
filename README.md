@@ -1,7 +1,7 @@
 # Data Pipeline case study in Spark Scala
 #### FooBank, a fictional financial services company, based in Athens, Greece, which earns money by lending money to people. FooBank is quite successful and are paying out 10 loans per day. In order to better target their marketing efforts FooBank wants to be able understand which markets their products are the most popular in. Unfortunately the data has been spread out between a number of different microservices, which all expose data in different formats. FooBank's data scientists while otherwise quite competent are not familar enough with the HTTP protocol and need some help designing a data-pipeline, that joins those different tables into one table of observations. Steven who has been working at FooBank for a long time tells you that some of the status fields were broken during 2018 because of a bug.
 
-### They are now asking you to design a data-pipeline to process and prepare the data for the data-scientists. They expect that the result of the pipeline is a single .csv file containing all available information for each loan including visits and customer data.
+#### They are now asking you to design a data-pipeline to process and prepare the data for the data-scientists. They expect that the result of the pipeline is a single .csv file containing all available information for each loan including visits and customer data.
 
 ## Assumptions made during the development
    1) To get the overall view Loans are considered as key driver. Then Customer and then visits.
@@ -46,5 +46,5 @@ ls target/*.jar
 spark-submit --class com.FooBank.SparkDataPipeline.CustomerLoans target/SparkDataPipeline-0.0.1-SNAPSHOT.jar
 ```
 
-### Find the csv file in the execution location in the CustomerLoansOvservations.csv directory
+### Find the csv file in the execution location as CustomerLoansOvservations.csv file
 
