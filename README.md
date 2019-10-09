@@ -29,7 +29,7 @@ git clone https://github.com/sambhatt25/SparkDataPipeline.git
 cd SparkDataPipeline
 ```
 
-## Step 2: To start with: please extract the module and navigate to project directory SparkProj
+## Step 2: Build the code and package to jar file
 ### Run the below command, make sure you have mvn installed and spark installed in your system
 ```
 mvn clean package
